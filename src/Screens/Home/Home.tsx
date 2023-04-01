@@ -24,7 +24,7 @@ const Home = () => {
 
   useEffect(() => {
     getData()
-  }, []);
+  });
 
   const getData = () => {
     setIsLoading(true);
